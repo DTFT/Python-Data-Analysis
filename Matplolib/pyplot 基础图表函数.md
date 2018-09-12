@@ -92,3 +92,17 @@ plt.show()
 
 
 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+fix, ax = plt.subplots()
+ax.plot(10*np.random.randn(100), 10*np.random.randn(100),'o')
+ax.set_title('Simple Scatter')
+
+plt.show()
+```
+
+
+
+![1536715587722](C:\Users\DR2016~1\AppData\Local\Temp\1536715587722.png)

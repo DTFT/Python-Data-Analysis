@@ -46,7 +46,7 @@ plt.ylabel('纵轴：振幅', fontproperties='SimHei',fontsize=15)
 # r''防止转义
 plt.title(r'正弦波实例 $y=cos(2\pi x)$', fontproperties='SimHei', fontsize=25)
 
-# 注释
+# 箭头注释
 plt.annotate(r'$\mu=100$', xy=(2,1), xytext=(3,1.5),
              arrowprops=dict(facecolor='black', shrink=0.1, width=2))
 

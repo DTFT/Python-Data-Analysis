@@ -2,9 +2,7 @@
 
 
 
-![1536630840635](C:\Users\DR2016~1\AppData\Local\Temp\1536630840635.png)
-
-
+**Python 并不默认支持中文显示，需要rcParams修改字体实现，SimHei 是黑体**
 
 ```python
 import matplotlib.pyplot as plt
@@ -24,9 +22,13 @@ plt.show()
 
 
 
+|     属性      |                   说明                   |
+| :-----------: | :--------------------------------------: |
+| 'font.family' |              显示字体的名字              |
+| 'font.style'  |  字体风格，正常'normal'或 斜体'italic'   |
+|  'font.size'  | 字体大小，整数字号或者'large'、'x-small' |
 
 
-![1536630963657](C:\Users\DR2016~1\AppData\Local\Temp\1536630963657.png)
 
 
 
@@ -60,9 +62,9 @@ plt.show()
 
 
 
-![1536631408825](C:\Users\DR2016~1\AppData\Local\Temp\1536631408825.png)
+Pyplot的中文显示：第二种方法
 
-
+在有中文输出的地方，增加一个属性**fontproperties**
 
 ```python
 import matplotlib.pyplot as plt

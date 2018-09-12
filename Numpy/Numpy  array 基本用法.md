@@ -299,15 +299,11 @@ c - 1
 
 
 
-线性代数模块 （linalg）用法
+## 线性代数模块 （linalg）用法
 
 
 
 ```python
-作者：達聞西
-链接：https://zhuanlan.zhihu.com/p/24309547
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 在深度学习相关的数据处理和运算中，线性代数模块（linalg）是最常用的之一。结合numpy提供的基本函数，可以对向量，矩阵，或是说多维张量进行一些基本的运算：import numpy as np
 
@@ -382,10 +378,6 @@ np.dot(U, np.dot(S, V))
 
 
 ```python
-作者：達聞西
-链接：https://zhuanlan.zhihu.com/p/24309547
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 import numpy as np
 import numpy.random as random
